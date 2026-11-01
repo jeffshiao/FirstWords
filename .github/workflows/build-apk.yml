@@ -22,7 +22,7 @@ jobs:
           gradle-version: "8.9"
 
       - name: Extract project
-        run: unzip FirstWordsAndroid_GitHubBuild_Fixed.zip
+        run: unzip FirstWordsAndroid_GitHubBuild.zip
 
       - name: Build APK
         working-directory: FirstWordsAndroid
